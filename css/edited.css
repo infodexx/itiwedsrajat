@@ -26,10 +26,14 @@
   position: relative;
 }
 
-/* Mobile adjustment */
+
+/* Mobile background image */
 @media (max-width: 768px) {
   .hero.hero-with-bg::before {
+    background-image: url("https://i.postimg.cc/SKBsq72r/2.png");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     opacity: 0.14;
   }
 }
