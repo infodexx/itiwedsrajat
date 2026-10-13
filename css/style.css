@@ -87,16 +87,16 @@ section { padding: 5.5rem 1.5rem; }
 
 .hero-names { animation: appear 2.2s 0.3s ease both; }
 
+
 .hero-names h1 {
   margin: 0;
-  font-family: var(--font-display);
+  font-family: 'Pinyon Script', cursive;
   font-weight: 400;
-  font-size: clamp(2.1rem, 7.5vw, 5.2rem);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  line-height: 1.15;
+  font-size: clamp(2.8rem, 8vw, 6rem);
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.2;
 }
-
 .hero-names .amp {
   font-family: var(--font-script);
   text-transform: none;
