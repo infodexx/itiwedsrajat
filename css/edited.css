@@ -8,6 +8,7 @@
 }
 
 /* Background image layer 
+*/
 .hero.hero-with-bg::before {
   content: "";
   position: absolute;
@@ -20,7 +21,6 @@
   z-index: -1;
   pointer-events: none;
 }
-*/
 /* Keep the hero content visible above the background */
 .hero.hero-with-bg > * {
   position: relative;
