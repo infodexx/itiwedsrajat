@@ -5,8 +5,7 @@
 
 /* CUSTOMIZE: date and time of the ceremony (used by the countdown).
    "+01:00" is British Summer Time, adjust for your own timezone. */
-const WEDDING_DATE = new Date("2026-12-02T18:00:00+01:00");
-
+const WEDDING_DATE = new Date("2026-12-02T00:00:00+05:30");
 /* CUSTOMIZE: the email address RSVPs are sent to, when the form uses
    the "mailto" mode (the default). */
 const COUPLE_EMAIL = "emma.james@example.com";
